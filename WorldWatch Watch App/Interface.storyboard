@@ -13,13 +13,13 @@
                         <table alignment="left" layout="vertical" id="y2t-Ke-hwg">
                             <items>
                                 <tableRow identifier="LocalTimeRowController" id="cHj-a6-h3Y" customClass="LocalTimeRowController" customModule="WorldWatch_WatchKit_Extension">
-                                    <group key="rootItem" width="1" alignment="left" id="uyu-aa-ta2">
+                                    <group key="rootItem" width="1" height="30" alignment="left" spacing="2" id="uyu-aa-ta2">
                                         <items>
                                             <label width="58" alignment="left" verticalAlignment="center" text="Label" textAlignment="right" minimumScaleFactor="0.50000000000000011" id="LSJ-ci-kx8">
-                                                <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                                <fontDescription key="font" type="system" pointSize="13"/>
                                             </label>
-                                            <dateLabel width="74" alignment="left" verticalAlignment="center" minimumScaleFactor="0.50000000000000011" format="hh:mm a" id="6O7-jd-f1I">
-                                                <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                            <dateLabel width="74" alignment="left" verticalAlignment="center" textAlignment="center" minimumScaleFactor="0.50000000000000011" format="hh:mm a" id="6O7-jd-f1I">
+                                                <fontDescription key="font" type="boldSystem" pointSize="12"/>
                                             </dateLabel>
                                         </items>
                                         <color key="backgroundColor" red="1" green="0.66540417995313828" blue="0.13152135525867292" alpha="1" colorSpace="calibratedRGB"/>

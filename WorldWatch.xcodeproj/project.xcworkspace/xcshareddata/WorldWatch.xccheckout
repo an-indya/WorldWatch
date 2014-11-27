@@ -14,11 +14,11 @@
 		<string>https://github.com/an-indya/WorldWatch.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WorldWatch/WorldWatch.xcodeproj</string>
+	<string>WorldWatch.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>99742E9B04538188EBDC7026AE155487CFD205AD</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/an-indya/WorldWatch.git</string>

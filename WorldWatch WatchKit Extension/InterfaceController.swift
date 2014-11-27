@@ -32,11 +32,12 @@ class InterfaceController: WKInterfaceController {
         if let dict = timeZones {
             table.setNumberOfRows(dict.count, withRowType: "LocalTimeRowController")
             var keyArray = dict.allKeys as [String]
-            func backwards(s1: String, s2: String) -> Bool {
+            func alphabaticalSort(s1: String, s2: String) -> Bool {
                 return s1 < s2
             }
-            var mDict = sorted(keyArray, backwards)
-            for (index, key) in enumerate(mDict) {
+            
+            var sortedCityNamesArray = sorted(keyArray, alphabaticalSort)
+            for (index, key) in enumerate(sortedCityNamesArray) {
                 let row = table.rowControllerAtIndex(index) as LocalTimeRowController
                 row.countryLabel.setText((key as String))
                 var value: AnyObject? = dict[key as String]
