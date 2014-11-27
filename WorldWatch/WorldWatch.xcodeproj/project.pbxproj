@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0731EE0B1A26D3B60055F8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0731EE0A1A26D3B60055F8AC /* AppDelegate.swift */; };
+		0731EE0D1A26D3B60055F8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0731EE0C1A26D3B60055F8AC /* ViewController.swift */; };
+		0731EE101A26D3B60055F8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE0E1A26D3B60055F8AC /* Main.storyboard */; };
+		0731EE121A26D3B60055F8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE111A26D3B60055F8AC /* Images.xcassets */; };
+		0731EE151A26D3B60055F8AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE131A26D3B60055F8AC /* LaunchScreen.xib */; };
+		0731EE211A26D3B70055F8AC /* WorldWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0731EE201A26D3B70055F8AC /* WorldWatchTests.swift */; };
+		0731EE311A26D3CA0055F8AC /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731EE301A26D3CA0055F8AC /* WatchKit.framework */; };
+		0731EE361A26D3CA0055F8AC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0731EE351A26D3CA0055F8AC /* InterfaceController.swift */; };
+		0731EE381A26D3CA0055F8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE371A26D3CA0055F8AC /* Images.xcassets */; };
+		0731EE3C1A26D3CA0055F8AC /* WorldWatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE3B1A26D3CA0055F8AC /* WorldWatch Watch App.app */; };
+		0731EE431A26D3CA0055F8AC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE421A26D3CA0055F8AC /* Interface.storyboard */; };
+		0731EE451A26D3CA0055F8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE441A26D3CA0055F8AC /* Images.xcassets */; };
+		0731EE481A26D3CA0055F8AC /* WorldWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0731EE2E1A26D3CA0055F8AC /* WorldWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0731EE521A26D3F10055F8AC /* LocalTimeRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0731EE501A26D3F10055F8AC /* LocalTimeRowController.swift */; };
+		0731EE531A26D3F10055F8AC /* Timezones.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0731EE511A26D3F10055F8AC /* Timezones.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0731EE1B1A26D3B70055F8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0731EDFD1A26D3B60055F8AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0731EE041A26D3B60055F8AC;
+			remoteInfo = WorldWatch;
+		};
+		0731EE3D1A26D3CA0055F8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0731EDFD1A26D3B60055F8AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0731EE3A1A26D3CA0055F8AC;
+			remoteInfo = "WorldWatch Watch App";
+		};
+		0731EE461A26D3CA0055F8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0731EDFD1A26D3B60055F8AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0731EE2D1A26D3CA0055F8AC;
+			remoteInfo = "WorldWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0731EE4F1A26D3CB0055F8AC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0731EE481A26D3CA0055F8AC /* WorldWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0731EE051A26D3B60055F8AC /* WorldWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0731EE091A26D3B60055F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0731EE0A1A26D3B60055F8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0731EE0C1A26D3B60055F8AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0731EE0F1A26D3B60055F8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0731EE111A26D3B60055F8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0731EE141A26D3B60055F8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0731EE1A1A26D3B70055F8AC /* WorldWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0731EE1F1A26D3B70055F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0731EE201A26D3B70055F8AC /* WorldWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWatchTests.swift; sourceTree = "<group>"; };
+		0731EE2E1A26D3CA0055F8AC /* WorldWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WorldWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0731EE301A26D3CA0055F8AC /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		0731EE341A26D3CA0055F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0731EE351A26D3CA0055F8AC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0731EE371A26D3CA0055F8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0731EE3B1A26D3CA0055F8AC /* WorldWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorldWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0731EE411A26D3CA0055F8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0731EE421A26D3CA0055F8AC /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		0731EE441A26D3CA0055F8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0731EE501A26D3F10055F8AC /* LocalTimeRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalTimeRowController.swift; sourceTree = "<group>"; };
+		0731EE511A26D3F10055F8AC /* Timezones.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Timezones.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0731EE021A26D3B60055F8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE171A26D3B70055F8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE2B1A26D3CA0055F8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE311A26D3CA0055F8AC /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0731EDFC1A26D3B60055F8AC = {
+			isa = PBXGroup;
+			children = (
+				0731EE071A26D3B60055F8AC /* WorldWatch */,
+				0731EE1D1A26D3B70055F8AC /* WorldWatchTests */,
+				0731EE321A26D3CA0055F8AC /* WorldWatch WatchKit Extension */,
+				0731EE3F1A26D3CA0055F8AC /* WorldWatch Watch App */,
+				0731EE2F1A26D3CA0055F8AC /* Frameworks */,
+				0731EE061A26D3B60055F8AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0731EE061A26D3B60055F8AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE051A26D3B60055F8AC /* WorldWatch.app */,
+				0731EE1A1A26D3B70055F8AC /* WorldWatchTests.xctest */,
+				0731EE2E1A26D3CA0055F8AC /* WorldWatch WatchKit Extension.appex */,
+				0731EE3B1A26D3CA0055F8AC /* WorldWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0731EE071A26D3B60055F8AC /* WorldWatch */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE0A1A26D3B60055F8AC /* AppDelegate.swift */,
+				0731EE0C1A26D3B60055F8AC /* ViewController.swift */,
+				0731EE0E1A26D3B60055F8AC /* Main.storyboard */,
+				0731EE111A26D3B60055F8AC /* Images.xcassets */,
+				0731EE131A26D3B60055F8AC /* LaunchScreen.xib */,
+				0731EE081A26D3B60055F8AC /* Supporting Files */,
+			);
+			path = WorldWatch;
+			sourceTree = "<group>";
+		};
+		0731EE081A26D3B60055F8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE091A26D3B60055F8AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0731EE1D1A26D3B70055F8AC /* WorldWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE201A26D3B70055F8AC /* WorldWatchTests.swift */,
+				0731EE1E1A26D3B70055F8AC /* Supporting Files */,
+			);
+			path = WorldWatchTests;
+			sourceTree = "<group>";
+		};
+		0731EE1E1A26D3B70055F8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE1F1A26D3B70055F8AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0731EE2F1A26D3CA0055F8AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE301A26D3CA0055F8AC /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0731EE321A26D3CA0055F8AC /* WorldWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE501A26D3F10055F8AC /* LocalTimeRowController.swift */,
+				0731EE511A26D3F10055F8AC /* Timezones.plist */,
+				0731EE351A26D3CA0055F8AC /* InterfaceController.swift */,
+				0731EE371A26D3CA0055F8AC /* Images.xcassets */,
+				0731EE331A26D3CA0055F8AC /* Supporting Files */,
+			);
+			path = "WorldWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0731EE331A26D3CA0055F8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE341A26D3CA0055F8AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0731EE3F1A26D3CA0055F8AC /* WorldWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE421A26D3CA0055F8AC /* Interface.storyboard */,
+				0731EE441A26D3CA0055F8AC /* Images.xcassets */,
+				0731EE401A26D3CA0055F8AC /* Supporting Files */,
+			);
+			path = "WorldWatch Watch App";
+			sourceTree = "<group>";
+		};
+		0731EE401A26D3CA0055F8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0731EE411A26D3CA0055F8AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0731EE041A26D3B60055F8AC /* WorldWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0731EE241A26D3B70055F8AC /* Build configuration list for PBXNativeTarget "WorldWatch" */;
+			buildPhases = (
+				0731EE011A26D3B60055F8AC /* Sources */,
+				0731EE021A26D3B60055F8AC /* Frameworks */,
+				0731EE031A26D3B60055F8AC /* Resources */,
+				0731EE4F1A26D3CB0055F8AC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0731EE471A26D3CA0055F8AC /* PBXTargetDependency */,
+			);
+			name = WorldWatch;
+			productName = WorldWatch;
+			productReference = 0731EE051A26D3B60055F8AC /* WorldWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0731EE191A26D3B70055F8AC /* WorldWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0731EE271A26D3B70055F8AC /* Build configuration list for PBXNativeTarget "WorldWatchTests" */;
+			buildPhases = (
+				0731EE161A26D3B70055F8AC /* Sources */,
+				0731EE171A26D3B70055F8AC /* Frameworks */,
+				0731EE181A26D3B70055F8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0731EE1C1A26D3B70055F8AC /* PBXTargetDependency */,
+			);
+			name = WorldWatchTests;
+			productName = WorldWatchTests;
+			productReference = 0731EE1A1A26D3B70055F8AC /* WorldWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0731EE2D1A26D3CA0055F8AC /* WorldWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0731EE4C1A26D3CB0055F8AC /* Build configuration list for PBXNativeTarget "WorldWatch WatchKit Extension" */;
+			buildPhases = (
+				0731EE2A1A26D3CA0055F8AC /* Sources */,
+				0731EE2B1A26D3CA0055F8AC /* Frameworks */,
+				0731EE2C1A26D3CA0055F8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0731EE3E1A26D3CA0055F8AC /* PBXTargetDependency */,
+			);
+			name = "WorldWatch WatchKit Extension";
+			productName = "WorldWatch WatchKit Extension";
+			productReference = 0731EE2E1A26D3CA0055F8AC /* WorldWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0731EE3A1A26D3CA0055F8AC /* WorldWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0731EE491A26D3CB0055F8AC /* Build configuration list for PBXNativeTarget "WorldWatch Watch App" */;
+			buildPhases = (
+				0731EE391A26D3CA0055F8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorldWatch Watch App";
+			productName = "WorldWatch Watch App";
+			productReference = 0731EE3B1A26D3CA0055F8AC /* WorldWatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0731EDFD1A26D3B60055F8AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Anindya Sengupta";
+				TargetAttributes = {
+					0731EE041A26D3B60055F8AC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0731EE191A26D3B70055F8AC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0731EE041A26D3B60055F8AC;
+					};
+					0731EE2D1A26D3CA0055F8AC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0731EE3A1A26D3CA0055F8AC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 0731EE001A26D3B60055F8AC /* Build configuration list for PBXProject "WorldWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0731EDFC1A26D3B60055F8AC;
+			productRefGroup = 0731EE061A26D3B60055F8AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0731EE041A26D3B60055F8AC /* WorldWatch */,
+				0731EE191A26D3B70055F8AC /* WorldWatchTests */,
+				0731EE2D1A26D3CA0055F8AC /* WorldWatch WatchKit Extension */,
+				0731EE3A1A26D3CA0055F8AC /* WorldWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0731EE031A26D3B60055F8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE101A26D3B60055F8AC /* Main.storyboard in Resources */,
+				0731EE151A26D3B60055F8AC /* LaunchScreen.xib in Resources */,
+				0731EE121A26D3B60055F8AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE181A26D3B70055F8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE2C1A26D3CA0055F8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE3C1A26D3CA0055F8AC /* WorldWatch Watch App.app in Resources */,
+				0731EE381A26D3CA0055F8AC /* Images.xcassets in Resources */,
+				0731EE531A26D3F10055F8AC /* Timezones.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE391A26D3CA0055F8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE431A26D3CA0055F8AC /* Interface.storyboard in Resources */,
+				0731EE451A26D3CA0055F8AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0731EE011A26D3B60055F8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE0D1A26D3B60055F8AC /* ViewController.swift in Sources */,
+				0731EE0B1A26D3B60055F8AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE161A26D3B70055F8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE211A26D3B70055F8AC /* WorldWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731EE2A1A26D3CA0055F8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731EE361A26D3CA0055F8AC /* InterfaceController.swift in Sources */,
+				0731EE521A26D3F10055F8AC /* LocalTimeRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0731EE1C1A26D3B70055F8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0731EE041A26D3B60055F8AC /* WorldWatch */;
+			targetProxy = 0731EE1B1A26D3B70055F8AC /* PBXContainerItemProxy */;
+		};
+		0731EE3E1A26D3CA0055F8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0731EE3A1A26D3CA0055F8AC /* WorldWatch Watch App */;
+			targetProxy = 0731EE3D1A26D3CA0055F8AC /* PBXContainerItemProxy */;
+		};
+		0731EE471A26D3CA0055F8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0731EE2D1A26D3CA0055F8AC /* WorldWatch WatchKit Extension */;
+			targetProxy = 0731EE461A26D3CA0055F8AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0731EE0E1A26D3B60055F8AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0731EE0F1A26D3B60055F8AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0731EE131A26D3B60055F8AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0731EE141A26D3B60055F8AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0731EE221A26D3B70055F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0731EE231A26D3B70055F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0731EE251A26D3B70055F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = WorldWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0731EE261A26D3B70055F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = WorldWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0731EE281A26D3B70055F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldWatch.app/WorldWatch";
+			};
+			name = Debug;
+		};
+		0731EE291A26D3B70055F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldWatch.app/WorldWatch";
+			};
+			name = Release;
+		};
+		0731EE4A1A26D3CB0055F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WorldWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "WorldWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0731EE4B1A26D3CB0055F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = WorldWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "WorldWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0731EE4D1A26D3CB0055F8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorldWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0731EE4E1A26D3CB0055F8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WorldWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0731EE001A26D3B60055F8AC /* Build configuration list for PBXProject "WorldWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731EE221A26D3B70055F8AC /* Debug */,
+				0731EE231A26D3B70055F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0731EE241A26D3B70055F8AC /* Build configuration list for PBXNativeTarget "WorldWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731EE251A26D3B70055F8AC /* Debug */,
+				0731EE261A26D3B70055F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0731EE271A26D3B70055F8AC /* Build configuration list for PBXNativeTarget "WorldWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731EE281A26D3B70055F8AC /* Debug */,
+				0731EE291A26D3B70055F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0731EE491A26D3CB0055F8AC /* Build configuration list for PBXNativeTarget "WorldWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731EE4A1A26D3CB0055F8AC /* Debug */,
+				0731EE4B1A26D3CB0055F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0731EE4C1A26D3CB0055F8AC /* Build configuration list for PBXNativeTarget "WorldWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731EE4D1A26D3CB0055F8AC /* Debug */,
+				0731EE4E1A26D3CB0055F8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0731EDFD1A26D3B60055F8AC /* Project object */;
+}
